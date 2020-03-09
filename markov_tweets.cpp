@@ -114,6 +114,7 @@ void generateTweet(bool writeToFile){
 			checkFile.open(fileName);
 		}
 		writeFile.open(fileName);				//Once unique name found, write.writing a makefile c++writing a makefile c++
+		cout << "Writing to file: " << fileName << endl;
 	}
 
 
